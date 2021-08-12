@@ -22,4 +22,4 @@ public class ex8_1 {
 		myDog.barking();			// 呼叫方法barking()
 		myDog.eating();			// 呼叫方法barking()
 	}
-}
+}// 
