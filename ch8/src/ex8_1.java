@@ -1,25 +1,25 @@
 class Dog {
-	String name;		// ¦W¦r
-	String color;		// ÃC¦â
-	int age;			// ¦~ÄÖ
-	void barking( ) {	// ¤èªkbarking()
-		System.out.println("§Úªºª¯¦b¥s");
+	String name;		// åå­—
+	String color;		// é¡è‰²
+	int age;			// å¹´é½¡
+	void barking( ) {	// æ–¹æ³•barking()
+		System.out.println("æˆ‘çš„ç‹—åœ¨å«");
 	}
-	void eating( ) {	// ¤èªkbarking()
-		System.out.println("§Ú¦b¦YªF¦è");
+	void eating( ) {	// æ–¹æ³•barking()
+		System.out.println("æˆ‘åœ¨åƒæ±è¥¿");
 	}
 }
 
 public class ex8_1 {
 	public static void main(String[] args) {
-		Dog myDog = new Dog();		// «Å§i»P«Ø¥ßmyDogª«¥ó
-		myDog.name = "Lily";		// ³]©wmyDogªºnameÄİ©Ê
-		myDog.color = "White";		// ³]©wmyDogªºcolorÄİ©Ê
-		myDog.age = 5;				// ³]©wmyDogªºageÄİ©Ê
-		System.out.println("§Úªºª¯¦W¦r¬O : " + myDog.name);
-		System.out.println("§Úªºª¯ÃC¦â¬O : " + myDog.color);
-		System.out.println("§Úªºª¯¦~ÄÖ¬O : " + myDog.age);	
-		myDog.barking();			// ©I¥s¤èªkbarking()
-		myDog.eating();			// ©I¥s¤èªkbarking()
+		Dog myDog = new Dog();		// å®£å‘Šèˆ‡å»ºç«‹myDogç‰©ä»¶
+		myDog.name = "Lily";		// è¨­å®šmyDogçš„nameå±¬æ€§
+		myDog.color = "White";		// è¨­å®šmyDogçš„colorå±¬æ€§
+		myDog.age = 5;				// è¨­å®šmyDogçš„ageå±¬æ€§
+		System.out.println("æˆ‘çš„ç‹—åå­—æ˜¯ : " + myDog.name);
+		System.out.println("æˆ‘çš„ç‹—é¡è‰²æ˜¯ : " + myDog.color);
+		System.out.println("æˆ‘çš„ç‹—å¹´é½¡æ˜¯ : " + myDog.age);	
+		myDog.barking();			// å‘¼å«æ–¹æ³•barking()
+		myDog.eating();			// å‘¼å«æ–¹æ³•barking()
 	}
-}// 
+}
